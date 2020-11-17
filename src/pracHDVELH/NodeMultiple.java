@@ -52,7 +52,11 @@ public class NodeMultiple {
 	 * @param i        the daughter node's index
 	 */
 	public void setDaughter(NodeMultiple daughter, int i) {
-		/* TO BE COMPLETED */
+		if(i < 0 || i >= NODE_MAX_ARITY)
+		{
+			ErrorNaiveHandler.abort(ERROR_MSG_INDEX_OUT_OF_RANGE+"@"+getClass()+".setDaughter()";);
+		}
+
 	}
 
 	/**
