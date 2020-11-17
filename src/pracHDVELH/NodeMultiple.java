@@ -56,6 +56,7 @@ public class NodeMultiple {
 		{
 			ErrorNaiveHandler.abort(ERROR_MSG_INDEX_OUT_OF_RANGE+"@"+getClass()+".setDaughter()";);
 		}
+		daughters[i] = daughter;
 
 	}
 
