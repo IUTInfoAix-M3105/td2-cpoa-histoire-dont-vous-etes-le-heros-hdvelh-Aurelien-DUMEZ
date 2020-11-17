@@ -78,6 +78,10 @@ public class NodeMultiple {
 	 * @param daughter
 	 */
 	public void addDaughter(NodeMultiple daughter) {
+		if(daughter==null)
+		{
+			return;
+		}
 		int i = 0;
 		while(i < NODE_MAX_ARITY && daughters[i] != null)
 		{
