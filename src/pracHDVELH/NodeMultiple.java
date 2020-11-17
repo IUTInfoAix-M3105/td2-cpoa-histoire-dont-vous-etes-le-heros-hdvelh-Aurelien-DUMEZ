@@ -100,6 +100,10 @@ public class NodeMultiple {
 	 *         daughter node.
 	 */
 	public boolean hasDaughters() {
+		if (daughters == null)
+		{
+			return false; //d
+		}
 		int i = 0;
 		while (i < daughters.length && daughters[i] == null){
 			i++;
@@ -127,4 +131,4 @@ public class NodeMultiple {
 		this.data = data;
 }
 
-// eof
+// eofa
