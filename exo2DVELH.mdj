@@ -890,12 +890,12 @@
 										"$ref": "AAAAAAF1ssBdDlHAqEE="
 									},
 									"font": "Arial;13;0",
-									"left": 413,
-									"top": 101,
+									"left": 424,
+									"top": 119,
 									"width": 19.5126953125,
 									"height": 13,
-									"alpha": 0.5235987755982988,
-									"distance": 25,
+									"alpha": -0.18534789339193825,
+									"distance": 32.55764119219941,
 									"hostEdge": {
 										"$ref": "AAAAAAF1ssBdDlHC0Lk="
 									},
@@ -2271,12 +2271,12 @@
 										"$ref": "AAAAAAF1stlAwliSPOs="
 									},
 									"font": "Arial;13;0",
-									"left": 391,
-									"top": 548,
+									"left": 319,
+									"top": 527,
 									"width": 38.669921875,
 									"height": 13,
-									"alpha": -0.5235987755982988,
-									"distance": 30,
+									"alpha": -0.13020458588909944,
+									"distance": 102.45974819410792,
 									"hostEdge": {
 										"$ref": "AAAAAAF1stlAw1iUFfE="
 									},
@@ -3434,7 +3434,8 @@
 								"$ref": "AAAAAAF1stGx+lR0hJ8="
 							},
 							"name": "PrintStream out",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3443,7 +3444,8 @@
 								"$ref": "AAAAAAF1stGx+lR0hJ8="
 							},
 							"name": "PrintStream err",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3452,7 +3454,8 @@
 								"$ref": "AAAAAAF1stGx+lR0hJ8="
 							},
 							"name": "InputStream in",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3461,7 +3464,8 @@
 								"$ref": "AAAAAAF1stGx+lR0hJ8="
 							},
 							"name": "Scanner inputReader",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
