@@ -34,7 +34,7 @@ public class NodeMultiple {
 	 * @return the {@code i}th daughter node, or {@code null} if it does not exist.
 	 */
 	public NodeMultiple getDaughter(int i) {
-		/* TO BE COMPLETED */
+		return daughters[i];
 	}
 
 	/**
@@ -54,7 +54,7 @@ public class NodeMultiple {
 	public void setDaughter(NodeMultiple daughter, int i) {
 		if(i < 0 || i >= NODE_MAX_ARITY)
 		{
-			ErrorNaiveHandler.abort(ERROR_MSG_INDEX_OUT_OF_RANGE+"@"+getClass()+".setDaughter()";);
+			ErrorNaiveHandler.abort(ERROR_MSG_INDEX_OUT_OF_RANGE+"@"+getClass()+".setDaughter()");
 		}
 		daughters[i] = daughter;
 
@@ -64,7 +64,7 @@ public class NodeMultiple {
 	 * @return all the daughters
 	 */
 	public NodeMultiple[] getDaughters() {
-		/* TO BE COMPLETED */
+		return daughters;
 	}
 
 	/**
